@@ -13,6 +13,6 @@ REG ADD "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion" /v RegisteredOrganiz
 REM INSTALL CODEMETER
 ECHO INSTALLING CODEMETER
 %CODEMETER% /ComponentArgs "*":"/qn"
-REM IMPORT LICENSE
+REM IMPORT CODEMETER LICENSE
 "C:\Program Files (x86)\CodeMeter\Runtime\bin\cmu32.exe" -i -f %~Dp0DERMALOG_License_Container_AllowVM.WBB
 PAUSE
