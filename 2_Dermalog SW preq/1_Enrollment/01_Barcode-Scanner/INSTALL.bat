@@ -4,6 +4,6 @@ TITLE INSTALLING BARCODE SCANNER
 
 REM INSTALLING BARCODE SCANNER
 
-%~dp0Zebra_CoreScanner_Driver_^(64bit^)_v3.01.0011.exe
+%~dp0Zebra_CoreScanner_Driver_^(64bit^)_v3.01.0011.exe /S /v/qn
 
 PAUSE
